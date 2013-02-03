@@ -9,8 +9,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>Cookie Manager Spec</name>
-  <description>Cookie Manager Specification.</description>
+  <name>Cookie Manager</name>
+  <description>Cookie Manager</description>
   <url>https://github.com/k-minemoto/cookie-manager/</url>
   <inceptionYear>2013</inceptionYear>
   <organization>
@@ -123,8 +123,8 @@
             <include>src/**/*.java</include>
           </includes>
           <encoding>UTF-8</encoding>
-  </configuration>
-</plugin>
+        </configuration>
+      </plugin>
     </plugins>
   </build>
 </project>

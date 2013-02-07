@@ -122,14 +122,14 @@ public interface CookieBuilder {
 	/**
 	 * Write this cookie to specified response.
 	 *
-	 * @param response {@HttpServletResponse} instance to write cookie;
+	 * @param response {@link HttpServletResponse} instance to write cookie;
 	 */
 	void write(HttpServletResponse response);
 
 	/**
 	 * Create a new Cookie with the builded value.
 	 *
-	 * @return new {@Cookie} instance
+	 * @return new {@link Cookie} instance
 	 */
 	Cookie create();
 

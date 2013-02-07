@@ -6,6 +6,15 @@ CookieManagerは、Cookie生成を行うために使用するAPIです。
 Cookie生成時にありがちなパスやドメインの設定忘れ/間違いを軽減することが可能となります。
 また、HttpOnly属性をサポートしていない環境でも、HttpOnlyの属性を出力することが可能です。
 
+インストール
+------
+mavenから取得できます。pomファイルのdependenciesに次の用に追加してください。
+
+    <dependency>
+        <groupId>net.jp.saf.http.cookie</groupId>
+        <artifactId>cookie-manager</artifactId>
+        <version>0.1.0</version>
+    </dependency>
 
 初期設定
 ------
